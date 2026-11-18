@@ -4,7 +4,7 @@ check a built / published site.
 
     .venv/bin/python run_build.py --src data/<file>.tif --year 2024 --out build-2024
     .venv/bin/python run_build.py --check build-2024
-    .venv/bin/python run_build.py --check-url https://eriknugshots.github.io/skycast-lightmap
+    .venv/bin/python run_build.py --check-url https://basaltlabsllc.github.io/skycast-lightmap
 
 A build is written to <out>.building and only renamed to <out> once every
 check passes, so <out> existing means it is fit to publish; a failed build
@@ -21,7 +21,7 @@ from pipeline.manifest import write_manifest
 from pipeline.grid import Source
 from pipeline.verify import check_site, http_reader, local_reader
 
-PAGES_URL = "https://eriknugshots.github.io/skycast-lightmap"
+PAGES_URL = "https://basaltlabsllc.github.io/skycast-lightmap"
 
 
 def _report(fails, what):

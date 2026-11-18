@@ -7,7 +7,7 @@ Data: EOG Annual VNL V2, median-masked, 15″ — Earth Observation Group, Payne
 Institute for Public Policy, Colorado School of Mines. CC BY 4.0.
 https://eogdata.mines.edu/products/vnl/
 
-Site: https://eriknugshots.github.io/skycast-lightmap/ — `manifest.json`,
+Site: https://basaltlabsllc.github.io/skycast-lightmap/ — `manifest.json`,
 `fine/<key>.bin` (2° tiles of 30″ cells, used within 50 km) and
 `coarse/<key>.bin` (10° tiles of 2.5′ cells, 50–300 km). Each tile is 240×240
 bytes, row 0 the north edge, zlib-deflated; byte = round(70·log10(1 + R/0.25)),
